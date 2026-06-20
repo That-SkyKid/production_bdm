@@ -1,0 +1,225 @@
+                           | Job ID: c1a665db-cbe7-4cfa-8708-914239facc5b
+                           | Bifrost version: 2.15.0.0
+00:00:00   1110MB   1233MB | Logging started at '2026-06-17T17:45:56.697037Z'
+00:00:00   1110MB   1233MB | Version: 'Amino version 2.15.0.11 (Wed 09/17/2025, 202509170138, build 804, commit 4361d20, branch release)'
+00:00:04   2485MB   2485MB | Info: Loading library: Amino, version: 2.15.0.11, from: Autodesk.
+00:00:04   2485MB   2485MB | Info: Loading library: bif, version: 2.15.0.11, from: Autodesk.
+00:00:04   2485MB   2485MB | Info: Loading library: geometries, version: 2.15.0.11, from: Autodesk.
+00:00:04   2485MB   2485MB | Info: Loading library: fluids, version: 2.15.0.11, from: Autodesk.
+00:00:04   2485MB   2485MB | Info: Loading library: particles, version: 2.15.0.11, from: Autodesk.
+00:00:04   2485MB   2485MB | Info: Loading library: file, version: 2.15.0.11, from: Autodesk.
+00:00:04   2485MB   2485MB | Info: Loading library: machine_learning, version: 2.15.0.11, from: Autodesk.
+00:00:04   2485MB   2485MB | Info: Loading library: mpm, version: 2.15.0.11, from: Autodesk.
+00:00:04   2485MB   2485MB | Info: Loading library: rigid_bodies, version: 2.15.0.11, from: Autodesk.
+00:00:04   2485MB   2485MB | Info: Loading library: ocean, version: 2.15.0.11, from: Autodesk.
+00:00:04   2485MB   2485MB | Info: Loading library: nucleus, version: 2.15.0.11, from: Autodesk.
+00:00:04   2485MB   2485MB | Info: Loading library: scatter, version: 2.15.0.11, from: Autodesk.
+00:00:04   2485MB   2485MB | Info: Loading library: simulation, version: 2.15.0.11, from: Autodesk.
+00:00:04   2485MB   2485MB | Info: Loading library: rigging, version: 2.15.0.11, from: Autodesk.
+00:00:04   2485MB   2485MB | Info: Loading library: fields, version: 2.15.0.11, from: Autodesk.
+00:00:04   2485MB   2485MB | Info: Loading library: wedging, version: 2.15.0.11, from: Autodesk.
+00:00:04   2485MB   2485MB | Info: Loading library: graphs, version: 2.15.0, from: Autodesk.
+00:00:04   2485MB   2485MB | Loaded configuration file '/dist/apps/bifrost/resources/standalone_config.json'
+00:00:04   2524MB   2524MB | Info: Loading library: usd_pack, version: 1.4.1, from: Autodesk.
+00:00:04   2524MB   2524MB | Loaded configuration file '/dist/apps/bifrost/packs/packs_standalone_config.json'
+00:00:04   2529MB   2529MB | Info: Loading library: reform, version: 0.15.0, from: Autodesk.
+00:00:04   2529MB   2529MB | Loaded configuration file '/dist/apps/bifrost/packs/reform-0.15.0/reformPackConfig.json'
+00:00:04   2533MB   2533MB | Loaded bifrost definition file '/tmp/.job/retopo_USD.json'
+00:00:04   2533MB   2533MB | Enabling terminal state 'Core::Graph::terminal::final' on compound 'User::Graphs::retopo_USD'
+00:00:04   2533MB   2533MB | Disabling terminal state 'Core::Graph::terminal::proxy' on compound 'User::Graphs::retopo_USD'
+00:00:04   2533MB   2533MB | Disabling terminal state 'Core::Graph::terminal::diagnostic' on compound 'User::Graphs::retopo_USD'
+00:00:04   2533MB   2533MB | Compiling compound 'User::Graphs::retopo_USD'
+00:00:04   2547MB   2547MB | Successfully compiled compound 'User::Graphs::retopo_USD'
+00:00:04   2547MB   2547MB | Setting input 'adaptivity' of type 'double' to value '0'
+00:00:04   2547MB   2547MB | Setting input 'anisotropy' of type 'double' to value '0.75'
+00:00:04   2547MB   2547MB | Setting input 'hard_edges' of type 'bool' to value 'false'
+00:00:04   2547MB   2547MB | Setting input 'hard_edges_filename' of type 'string' to value ''
+00:00:04   2547MB   2547MB | Setting input 'in_filename' of type 'string' to value 'Hood.usd'
+00:00:04   2547MB   2547MB | Setting input 'out_file' of type 'string' to value 'output_8e814c47-a9d7-4789-8c04-f91c53944594.usd'
+00:00:04   2547MB   2547MB | Setting input 'plane_normal' of type 'Math::float3' to value '{"x":"-1","y":"0","z":"0"}'
+00:00:04   2547MB   2547MB | Setting input 'plane_origin' of type 'Math::float3' to value '{"x":"0","y":"0","z":"0"}'
+00:00:04   2547MB   2547MB | Setting input 'preprocess' of type 'bool' to value 'true'
+00:00:04   2547MB   2547MB | Setting input 'preprocess_if_defects' of type 'bool' to value 'true'
+00:00:04   2547MB   2547MB | Setting input 'preprocess_if_failure' of type 'bool' to value 'true'
+00:00:04   2547MB   2547MB | Setting input 'use_local_space' of type 'bool' to value 'true'
+00:00:04   2547MB   2547MB | Setting input 'quad_tolerance' of type 'double' to value '100'
+00:00:04   2547MB   2547MB | Setting input 'regularize' of type 'double' to value '0.5'
+00:00:04   2547MB   2547MB | Setting input 'subdivision_factor' of type 'int' to value '1'
+00:00:04   2547MB   2547MB | Setting input 'symmetry' of type 'bool' to value 'true'
+00:00:04   2547MB   2547MB | Setting input 'target_face_count' of type 'int' to value '10000'
+00:00:04   2547MB   2547MB | Executing compound 'User::Graphs::retopo_USD'
+00:00:11   2683MB   2683MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/mesh_has_defects': Reform Pack: mesh_has_defects num defects detected: 2
+00:00:11   2683MB   2683MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/preprocess_if/preprocess_mesh': Reform Pack: preprocess started.
+00:00:19   2886MB   2887MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/preprocess_if/preprocess_mesh': Reform Pack: preprocess ended.
+00:00:19   2886MB   2887MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/cut_if/cut_mesh': Reform Pack: cut_mesh started.
+00:00:19   2887MB   2887MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/cut_if/cut_mesh': Reform Pack: 347 returned symmetry edges after cut.
+00:00:19   2887MB   2887MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: reform started.
+00:00:19   2887MB   2887MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: Retopology parameters
+00:00:19   2887MB   2887MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: num_faces: 12489
+00:00:19   2887MB   2887MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: target_faces: 4988
+00:00:19   2887MB   2887MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: quad_tolerance: 100.000000
+00:00:19   2887MB   2887MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: subdivision_factor: 1
+00:00:19   2887MB   2887MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: regularize: 0.500000
+00:00:19   2887MB   2887MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: anisotropy: 0.750000
+00:00:19   2887MB   2887MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: adaptivity: 0.000000
+00:00:19   2886MB   2887MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: Adding 347 symmetry constraints for reform.
+00:00:19   2937MB   2937MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: cross field computation done.
+37.50%, [Stages done/all: 0/1. Elapsed time: 0s, remaining: 0s. Node: Preprocess compute]
+43.75%, [Stages done/all: 0/1. Elapsed time: 0s, remaining: 0s. Node: Preprocess compute]
+25.00%, [Stages done/all: 0/1. Elapsed time: 1s, remaining: 3s. Node: Preprocess compute]
+28.91%, [Stages done/all: 0/1. Elapsed time: 1s, remaining: 2s. Node: Preprocess compute]
+28.91%, [Stages done/all: 0/1. Elapsed time: 2s, remaining: 4s. Node: Preprocess compute]
+40.62%, [Stages done/all: 0/1. Elapsed time: 2s, remaining: 2s. Node: Preprocess compute]
+27.34%, [Stages done/all: 0/1. Elapsed time: 3s, remaining: 7s. Node: Preprocess compute]
+39.84%, [Stages done/all: 0/1. Elapsed time: 3s, remaining: 4s. Node: Preprocess compute]
+39.84%, [Stages done/all: 0/1. Elapsed time: 4s, remaining: 6s. Node: Preprocess compute]
+27.44%, [Stages done/all: 0/1. Elapsed time: 4s, remaining: 10s. Node: Preprocess compute]
+39.19%, [Stages done/all: 0/1. Elapsed time: 5s, remaining: 7s. Node: Preprocess compute]
+46.92%, [Stages done/all: 0/1. Elapsed time: 5s, remaining: 5s. Node: Preprocess compute]
+46.94%, [Stages done/all: 0/1. Elapsed time: 6s, remaining: 6s. Node: Preprocess compute]
+46.94%, [Stages done/all: 0/1. Elapsed time: 6s, remaining: 6s. Node: Preprocess compute]
+46.94%, [Stages done/all: 0/1. Elapsed time: 7s, remaining: 7s. Node: Preprocess compute]
+46.95%, [Stages done/all: 0/1. Elapsed time: 7s, remaining: 7s. Node: Preprocess compute]
+46.96%, [Stages done/all: 0/1. Elapsed time: 8s, remaining: 9s. Node: Preprocess compute]
+Done in 8s.
+Done in 0s.
+58.70%, [Stages done/all: 6/11. Elapsed time: 0s, remaining: 0s. Node: Compute Relaxed Map]
+58.78%, [Stages done/all: 6/11. Elapsed time: 1s, remaining: 0s. Node: Compute Relaxed Map]
+65.62%, [Stages done/all: 7/11. Elapsed time: 1s, remaining: 0s. Node: Compute Map Parameters]
+65.62%, [Stages done/all: 7/11. Elapsed time: 2s, remaining: 1s. Node: Compute Map Parameters]
+Done in 2s.
+Projecting....................................................................| 10 ms 
+Projecting....................................................................| 0 ms 
+Projecting....................................................................| 11 ms 
+Projecting....................................................................|00:00:22   2933MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: 509 returned hard edges after retopology.
+00:00:22   2933MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: ReForm succeeded.
+00:00:22   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/mesh_has_defects': Reform Pack: mesh_has_defects num defects detected: 0
+00:00:22   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/preprocess_if/preprocess_mesh': Reform Pack: preprocess started.
+00:00:22   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/preprocess_if/preprocess_mesh': Reform Pack: preprocess ended.
+00:00:22   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: reform started.
+00:00:22   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: Retopology parameters
+00:00:22   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: num_faces: 36
+00:00:22   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: target_faces: 6
+00:00:22   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: quad_tolerance: 100.000000
+00:00:22   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: subdivision_factor: 1
+00:00:22   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: regularize: 0.500000
+00:00:22   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: anisotropy: 0.750000
+00:00:22   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: adaptivity: 0.000000
+ 0 ms 
+37.50%, [Stages done/all: 0/1. Elapsed time: 0s, remaining: 0s. Node: Preprocess compute]
+Done in 0s.
+Done in 0s.
+Done in 0s.
+Projecting....................................................................| 0 ms 
+Projecting....................................................................| 0 ms 
+Projecting....................................................................| 0 ms 
+Projecting....................................................................|00:00:22   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: cross field computation done.
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: 0 returned hard edges after retopology.
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: ReForm succeeded.
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/mesh_has_defects': Reform Pack: mesh_has_defects num defects detected: 0
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/preprocess_if/preprocess_mesh': Reform Pack: preprocess started.
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/preprocess_if/preprocess_mesh': Reform Pack: preprocess ended.
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: reform started.
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: Retopology parameters
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: num_faces: 25
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: target_faces: 3
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: quad_tolerance: 100.000000
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: subdivision_factor: 1
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: regularize: 0.500000
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: anisotropy: 0.750000
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: adaptivity: 0.000000
+ 0 ms 
+28.91%, [Stages done/all: 0/1. Elapsed time: 0s, remaining: 0s. Node: Preprocess compute]
+Done in 0s.
+Done in 0s.
+Done in 0s.
+Projecting....................................................................| 0 ms 
+Projecting....................................................................| 0 ms 
+Projecting....................................................................| 0 ms 
+Projecting....................................................................|00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: cross field computation done.
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: 6 returned hard edges after retopology.
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: ReForm succeeded.
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/mesh_has_defects': Reform Pack: mesh_has_defects num defects detected: 4
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/preprocess_if/preprocess_mesh': Reform Pack: preprocess started.
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/preprocess_if/preprocess_mesh': Reform Pack: preprocess mesh failed with : created 0 components
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/preprocess_if/preprocess_mesh': Reform Pack: preprocess ended.
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: reform started.
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: Reform failed: Invalid input mesh.
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/mesh_has_defects': Reform Pack: mesh_has_defects num defects detected: 0
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/preprocess_if/preprocess_mesh': Reform Pack: preprocess started.
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/preprocess_if/preprocess_mesh': Reform Pack: preprocess mesh failed with : created 0 components
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/preprocess_if/preprocess_mesh': Reform Pack: preprocess ended.
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: reform started.
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: Reform failed: Invalid input mesh.
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/mesh_has_defects': Reform Pack: mesh_has_defects num defects detected: 0
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/preprocess_if/preprocess_mesh': Reform Pack: preprocess started.
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/preprocess_if/preprocess_mesh': Reform Pack: preprocess ended.
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: reform started.
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: Retopology parameters
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: num_faces: 36
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: target_faces: 6
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: quad_tolerance: 100.000000
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: subdivision_factor: 1
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: regularize: 0.500000
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: anisotropy: 0.750000
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: adaptivity: 0.000000
+ 0 ms 
+Done in 0s.
+Done in 0s.
+37.50%, [Stages done/all: 0/1. Elapsed time: 0s, remaining: 0s. Node: Preprocess compute]
+Done in 0s.
+Done in 0s.
+Done in 0s.
+Projecting....................................................................| 0 ms 
+Projecting....................................................................| 0 ms 
+Projecting....................................................................| 0 ms 
+Projecting....................................................................|00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: cross field computation done.
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: 0 returned hard edges after retopology.
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: ReForm succeeded.
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/mesh_has_defects': Reform Pack: mesh_has_defects num defects detected: 0
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/preprocess_if/preprocess_mesh': Reform Pack: preprocess started.
+00:00:23   2914MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/preprocess_if/preprocess_mesh': Reform Pack: preprocess ended.
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: reform started.
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: Retopology parameters
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: num_faces: 25
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: target_faces: 3
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: quad_tolerance: 100.000000
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: subdivision_factor: 1
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: regularize: 0.500000
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: anisotropy: 0.750000
+00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: adaptivity: 0.000000
+ 0 ms 
+46.88%, [Stages done/all: 0/1. Elapsed time: 0s, remaining: 0s. Node: Preprocess compute]
+Done in 0s.
+Done in 0s.
+Done in 0s.
+Projecting....................................................................| 0 ms 
+Projecting....................................................................| 0 ms 
+Projecting....................................................................| 0 ms 
+Projecting....................................................................|00:00:23   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: cross field computation done.
+00:00:24   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: 4 returned hard edges after retopology.
+00:00:24   2913MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: ReForm succeeded.
+00:00:24   2914MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/mesh_has_defects': Reform Pack: mesh_has_defects num defects detected: 4
+00:00:24   2914MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/preprocess_if/preprocess_mesh': Reform Pack: preprocess started.
+00:00:24   2914MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/preprocess_if/preprocess_mesh': Reform Pack: preprocess mesh failed with : created 0 components
+00:00:24   2914MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/preprocess_if/preprocess_mesh': Reform Pack: preprocess ended.
+00:00:24   2914MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: reform started.
+00:00:24   2914MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: Reform failed: Invalid input mesh.
+00:00:24   2914MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/mesh_has_defects': Reform Pack: mesh_has_defects num defects detected: 0
+00:00:24   2914MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/preprocess_if/preprocess_mesh': Reform Pack: preprocess started.
+00:00:24   2914MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/preprocess_if/preprocess_mesh': Reform Pack: preprocess mesh failed with : created 0 components
+00:00:24   2914MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/preprocess_if/preprocess_mesh': Reform Pack: preprocess ended.
+00:00:24   2914MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: reform started.
+00:00:24   2914MB   2970MB | Info: around '/retopo_USD/remesh/reform_by_shells/iterate_over_shells/reform_this_mesh/reform_mesh': Reform Pack: Reform failed: Invalid input mesh.
+00:00:24   2918MB   2970MB | Finished executing compound 'User::Graphs::retopo_USD'
+00:00:24   2918MB   2970MB | Execution took 0:00:19.094956
+00:00:24   2918MB   2970MB | Produced output 'out_mesh' of type 'Object' of value 'Serializing values of type 'Object' is unsupported; see output port 'out_mesh'.'
+00:00:24   2918MB   2970MB | Produced output 'out_stage' of type 'BifrostUsd::Stage' of value 'Serializing values of type 'BifrostUsd::Stage' is unsupported; see output port 'out_stage'.'
+00:00:24   2918MB   2970MB | Produced output 'success' of type 'bool' of value 'true'
+                           | Uploading output file: output_8e814c47-a9d7-4789-8c04-f91c53944594.usd
+                           | Upload complete for file: output_8e814c47-a9d7-4789-8c04-f91c53944594.usd (Size: 2149826 bytes)
+                           | Progress: 100.00%
+                           | Frames: start: 1, end: 1, completed: 1/1
+                           | CPU usage: 0.00%, peak: 0.00%
+                           | Memory usage: 2.85GB, peak: 2.90GB
+                           | Disk usage: 4.94MB

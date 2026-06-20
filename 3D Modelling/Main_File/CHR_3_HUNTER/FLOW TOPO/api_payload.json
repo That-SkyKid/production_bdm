@@ -1,0 +1,65 @@
+{
+  "name": "Retopo_Hood_10000",
+  "tags": [
+    "jobType:retopology",
+    "startFrame:0",
+    "outputDirectory:E:\\Github\\production_bdm\\3D Modelling\\Main_File\\CHR_3_HUNTER\\FLOW TOPO",
+    "submitterSelfId:RetopoPlugin"
+  ],
+  "tasks": [
+    {
+      "type": "task",
+      "name": "retopology",
+      "executor": {
+        "name": "retopology",
+        "version": "1"
+      },
+      "inputs": [
+        {
+          "source": {
+            "spaceId": "scratch:@default",
+            "key": "977cdc38-10ae-4bc2-9fb5-da9ba520b3b3/Hood.usd"
+          },
+          "target": {
+            "path": "Hood.usd"
+          }
+        }
+      ],
+      "payload": {
+        "options": {
+          "adaptivity": 0.0,
+          "anisotropy": 0.75,
+          "hardEdgesFilename": null,
+          "preprocessMesh": true,
+          "preprocessMeshIfDefects": true,
+          "preprocessMeshIfFailure": true,
+          "useLocalSpace": true,
+          "regularity": 0.5,
+          "subdivisionFactor": 1,
+          "symmetry": true,
+          "symmetryAxisOrientation": {
+            "x": -1.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "symmetryAxisPosition": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "targetFaceCount": 10000,
+          "tolerance": 100
+        },
+        "source": "Hood.usd",
+        "dest": "Hood_RESULT.usd"
+      },
+      "limitations": {
+        "maxExecutionTimeInSeconds": 21600
+      },
+      "requirements": {
+        "cpu": 2,
+        "memory": 8000
+      }
+    }
+  ]
+}
